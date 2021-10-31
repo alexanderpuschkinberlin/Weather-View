@@ -1,3 +1,5 @@
+// initialize the variables
+
 $(document).ready(function () {
     var searchHistoryContainer = $("#past-searches");
     var searchForm = $("#search-form");
