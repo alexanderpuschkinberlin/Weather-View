@@ -1,0 +1,43 @@
+h1 {
+  background-color: rgb(181, 233, 250);
+  font-size: 5rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+#five-day-forecast {
+  background-color: rgb(10, 233, 230);
+}
+
+.past-search-term {
+  width: 100%;
+  text-align: left;
+}
+
+.past-search-term {
+  color: black;
+}
+
+.col-2 {
+  padding: 0px 32px;
+}
+
+.uv-index-number {
+  color: red;
+}
+
+.city-name {
+  font-size: 3rem;
+}
+
+.day-name {
+  font-size: 1.5rem;
+}
