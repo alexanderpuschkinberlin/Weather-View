@@ -2,7 +2,7 @@
 
 ## Description
 
-Please find here the updated a weather dashboard page with a search feature for cities showing the forecast for today and the next 5 days.
+Please find here a weather dashboard page with a search feature for cities showing the forecast for today and the next 5 days.
 Specialities:
 
 - Bootstrap
