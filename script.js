@@ -34,11 +34,11 @@ $(document).ready(function () {
     if (!searchHistory.includes(city) && city !== "") {
       console.log(city);
       searchHistory.push(city);
+      localStorage.setItem("searchHistory", JSON.stringify(searchHistory));
+      searchTermDiv.text(city);
+      searchHistoryContainer.append(searchTermDiv);
     }
 
-    localStorage.setItem("searchHistory", JSON.stringify(searchHistory));
-    searchTermDiv.text(city);
-    searchHistoryContainer.append(searchTermDiv);
     console.log(formValues, city);
 
     searchForCurrentCityWeather(city);
